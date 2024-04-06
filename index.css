@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    background-color: darkblue;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    height: 3rem;
+    line-height: 3rem;
+    font-family:monospace;
+}
+.main-box{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+gap: 3rem;
+}
+#red{
+
+    background-color: red;
+    border-radius:50%;
+    height: 100px;
+    width: 100px;
+    transition: 0.2s;
+}
+#red:hover{
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+#blue{
+    transition: 0.2s;
+    background-color: blue;
+    border-radius:50%;
+    height: 100px;
+    width: 100px;
+}
+#blue:hover{
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+#green{
+    transition: 0.2s;
+    background-color:green;
+    border-radius:50%;
+    height: 100px;
+    width: 100px;
+}
+#green:hover{
+    cursor: pointer;
+    border: 5px solid black;
+}
+@media (max-width:600px) {
+
+    #red{
+    background-color: red;
+    border-radius:50%;
+    height: 80px;
+    width: 80px;
+    transition: 0.2s;
+    }
+    #red:hover{
+        cursor: pointer;
+        border: 4px solid black;
+    }
+
+    #green{
+        transition: 0.2s;
+        background-color:green;
+        border-radius:50%;
+        height: 80px;
+        width: 80px;
+        }
+        #green:hover{
+            cursor: pointer;
+            border: 4px solid black;
+        }
+        #blue{
+            transition: 0.2s;
+            background-color: blue;
+            border-radius:50%;
+            height: 80px;
+            width: 80px;
+            }
+            #blue:hover{
+                cursor: pointer;
+                border: 4px solid black;
+ }
+ p{
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 27px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+        
+}
+#user-choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    transition: 0.2s;
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+}
+.comp-choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#comp{
+    padding-right:30px;
+ background-color:#081b31 ;
+ color: white;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#res{
+    padding: 8px;
+    background-color:chocolate;
+    color: aliceblue;
+}
